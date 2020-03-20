@@ -4,6 +4,7 @@ def position_taken?(board, index)
     false
   elsif board[index] != " " || "" || nil
       return true
-    elseputs "Can't compute"
+    else
+      puts "Can't compute"
   end
 end
